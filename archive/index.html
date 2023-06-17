@@ -133,14 +133,7 @@
 
     <body ontouchstart="" class="body--light body--dark">
         <!-- ThemeColor -->
-        <div id="vcomments"></div>
-        <script>
-            new Valine({
-                el: '#vcomments',
-                appId: 'eOmIfk2ZqC5jcG7eiQDqaO5r-gzGzoHsz',
-                appKey: 'cDjllJqxbcEMfPxeXgrlt9jU',
-            });
-        </script>
+
         <!-- ThemeColor -->
         <style type="text/css">
             .body--light {
@@ -1110,6 +1103,14 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
                 mobile: { show: true },
                 react: { opacity: 0.7 },
                 log: false,
+            });
+        </script>
+        <div id="vcomments"></div>
+        <script>
+            new Valine({
+                el: '#vcomments',
+                appId: 'eOmIfk2ZqC5jcG7eiQDqaO5r-gzGzoHsz',
+                appKey: 'cDjllJqxbcEMfPxeXgrlt9jU',
             });
         </script>
     </body>
